@@ -1,12 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../blocs/auth/auth_bloc.dart';
-import '../../models/sign_up_form_model.dart';
 import '../../shared/theme.dart';
 import '../widgets/buttons.dart';
 import '../widgets/forms.dart';
-import 'sign_up_set_profile_page.dart';
 
 class SignUpPage extends StatefulWidget {
   const SignUpPage({Key? key}) : super(key: key);

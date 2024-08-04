@@ -1,0 +1,58 @@
+class Images {
+  Images._();
+
+  static String icLauncher = "assets/images/ic_launcher.png";
+  static String icLogo = "assets/images/ic_logo.png";
+  static String icCheck = "assets/images/ic_check.png";
+  static String icEditProfile = "assets/images/ic_edit_profile.png";
+  static String icHelp = "assets/images/ic_help.png";
+  static String icHistory = "assets/images/ic_history.png";
+  static String icLogout = "assets/images/ic_logout.png";
+  static String icMore = "assets/images/ic_more.png";
+  static String icMyRewards = "assets/images/ic_my_rewards.png";
+  static String icOverview = "assets/images/ic_overview.png";
+  static String icPin = "assets/images/ic_pin.png";
+  static String icPlusCircle = "assets/images/ic_plus_circle.png";
+  static String icProductData = "assets/images/ic_product_data.png";
+  static String icProductFood = "assets/images/ic_product_food.png";
+  static String icProductMovie = "assets/images/ic_product_movie.png";
+  static String icProductStream = "assets/images/ic_product_stream.png";
+  static String icProductTravel = "assets/images/ic_product_travel.png";
+  static String icProductWater = "assets/images/ic_product_water.png";
+  static String icReward = "assets/images/ic_reward.png";
+  static String icSend = "assets/images/ic_send.png";
+  static String icStatistic = "assets/images/ic_statistic.png";
+  static String icTopup = "assets/images/ic_topup.png";
+  static String icTransactionCat1 = "assets/images/ic_transaction_cat1.png";
+  static String icTransactionCat2 = "assets/images/ic_transaction_cat2.png";
+  static String icTransactionCat3 = "assets/images/ic_transaction_cat3.png";
+  static String icTransactionCat4 = "assets/images/ic_transaction_cat4.png";
+  static String icTransactionCat5 = "assets/images/ic_transaction_cat5.png";
+  static String icUpload = "assets/images/ic_upload.png";
+  static String icWallet = "assets/images/ic_wallet.png";
+  static String icWithdraw = "assets/images/ic_withdraw.png";
+  static String imgBankBca = "assets/images/img_bank_bca.png";
+  static String imgBankBni = "assets/images/img_bank_bni.png";
+  static String imgBankMandiri = "assets/images/img_bank_mandiri.png";
+  static String imgBankOcbc = "assets/images/img_bank_ocbc.png";
+  static String imgBgCard = "assets/images/img_bg_card.png";
+  static String imgFriend1 = "assets/images/img_friend1.png";
+  static String imgFriend2 = "assets/images/img_friend2.png";
+  static String imgFriend3 = "assets/images/img_friend3.png";
+  static String imgFriend4 = "assets/images/img_friend4.png";
+  static String imgLogoDark = "assets/images/img_logo_dark.png";
+  static String imgLogoLight = "assets/images/img_logo_light.png";
+  static String imgOnboarding1 = "assets/images/img_onboarding1.png";
+  static String imgOnboarding2 = "assets/images/img_onboarding2.png";
+  static String imgOnboarding3 = "assets/images/img_onboarding3.png";
+  static String imgProfile = "assets/images/img_profile.png";
+  static String imgProviderIndosat = "assets/images/img_provider_indosat.png";
+  static String imgProviderSingtel = "assets/images/img_provider_singtel.png";
+  static String imgProviderTelkomsel =
+      "assets/images/img_provider_telkomsel.png";
+  static String imgTips1 = "assets/images/img_tips1.png";
+  static String imgTips2 = "assets/images/img_tips2.png";
+  static String imgTips3 = "assets/images/img_tips3.png";
+  static String imgTips4 = "assets/images/img_tips4.png";
+  static String imgWallet = "assets/images/img_wallet.png";
+}

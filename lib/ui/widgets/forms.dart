@@ -1,5 +1,5 @@
-import '../../shared/theme.dart';
 import 'package:flutter/material.dart';
+import 'package:key_bank_flutter/shared/theme.dart';
 
 class CustomFormField extends StatelessWidget {
   final String title;
@@ -9,13 +9,13 @@ class CustomFormField extends StatelessWidget {
   final Function(String)? onFieldSubmitted;
 
   const CustomFormField({
-    Key? key,
+    super.key,
     required this.title,
     this.obscureText = false,
     this.controller,
     this.isShowTitle = true,
     this.onFieldSubmitted,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
