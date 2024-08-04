@@ -100,62 +100,9 @@ class _SignUpPageState extends State<SignUpPage> {
                 const SizedBox(
                   height: 30,
                 ),
-                BlocConsumer<AuthBloc, AuthState>(
-                  listener: (context, state) {
-                    if (state is AuthCheckEmailSuccess) {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => SignUpSetProfilePage(
-                            data: SignUpFormModel(
-                              name: nameController.text,
-                              email: emailController.text,
-                              password: passwordController.text,
-                              pin: '',
-                            ),
-                          ),
-                        ),
-                      );
-                    }
-
-                    if (state is AuthFailed) {
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        SnackBar(
-                          content: Text(
-                            state.e,
-                          ),
-                          backgroundColor: redColor,
-                        ),
-                      );
-                    }
-                  },
-                  builder: (context, state) {
-                    if (state is AuthLoading) {
-                      return const Center(
-                        child: CircularProgressIndicator(),
-                      );
-                    }
-
-                    return CustomFilledButton(
-                      title: 'Continue',
-                      onPressed: () {
-                        if (validate()) {
-                          context
-                              .read<AuthBloc>()
-                              .add(AuthCheckEmail(emailController.text));
-                        } else {
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            SnackBar(
-                              content: const Text(
-                                'Semua field harus diisi',
-                              ),
-                              backgroundColor: redColor,
-                            ),
-                          );
-                        }
-                      },
-                    );
-                  },
+                CustomFilledButton(
+                  title: 'Continue',
+                  onPressed: () {},
                 ),
               ],
             ),
